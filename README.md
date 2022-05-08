@@ -28,14 +28,13 @@ Download RPLAN from [here](http://staff.ustc.edu.cn/~fuxm/projects/DeepLayout/in
 Train the models for predicting room types, locating room and partitioning room in sequence.
 
 Run the training script and the experiment logs and outputs are saved in experiment.
+
+For example:
 ```
-  For example:
-  
-      - name: file name in RPLAN dataset
-      - boundary: (x, y, dir, isNew), external boundary and first two point indicate the front door
-      - gt_rTypes: room categories
-      - gt_rBoxes: (y0,x0,y1,x1), left-top(in) and right-bottom(out) corner of a room bounding box, extracted directly from the RPLAN dataset
-  ```
+  cd room_type
+  python train_roomtype.py
+```
+The trained model can be download [here](https://drive.google.com/drive/folders/1TRMKu6zw-pgEpGja2zTCixA2WhhU5KXr?usp=sharing) for test.
 ### Authors
 Feixiang He, Yanlong Huang, He Wang
 
