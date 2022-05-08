@@ -1,9 +1,6 @@
-# IPLAN
-#### [iPLAN: Interactive and Procedural Layout Planning (CVPR 2022)](https://arxiv.org/pdf/2203.14412.pdf)
+[iPLAN: Interactive and Procedural Layout Planning (CVPR 2022)](https://arxiv.org/pdf/2203.14412.pdf)
 
-Feixiang He, Yanlong Huang, He Wang
 
-[project page](http://drhewang.com/pages/iplan.html) 
 
 ![Paper Image](./iPlan.png)
 
