@@ -27,7 +27,7 @@ Download RPLAN from [here](http://staff.ustc.edu.cn/~fuxm/projects/DeepLayout/in
 ### Train
 Train the models for predicting room types, locating room and partitioning room in sequence.
 
-Run the training script and the experiment logs and outputs are saved in experiment.
+Run the training script, the experiment logs and outputs are saved in experiment.
 
 For example:
 ```
