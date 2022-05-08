@@ -55,10 +55,11 @@ Please cite our paper if you find it useful:
     }
 
 ### Contact
-If you have any questions about the code, please contact me: Feixiang He(fxhe1992@gmail.com)
+If you have any questions, please contact me: Feixiang He(fxhe1992@gmail.com)
 
 ### Acknowledgement
 Toolbox to render floorplan: https://github.com/zzilch/RPLAN-Toolbox
+
 Original RPLAN dataset: http://staff.ustc.edu.cn/~fuxm/projects/DeepLayout/index.html
 
 ### License
