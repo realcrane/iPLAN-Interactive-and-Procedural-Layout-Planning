@@ -14,8 +14,28 @@ Below is the key environment under which the code was developed, not necessarily
 And other libraries such as numpy.
 
 ### Prepare data
+Download RPLAN from [here](http://staff.ustc.edu.cn/~fuxm/projects/DeepLayout/index.html) and each data can be processed into the following format:
 
+```
+  data_item
+      - name: file name in RPLAN dataset
+      - boundary: (x, y, dir, isNew), external boundary and first two point indicate the front door
+      - gt_rTypes: room categories
+      - gt_rBoxes: (y0,x0,y1,x1), left-top(in) and right-bottom(out) corner of a room bounding box, extracted directly from the RPLAN dataset
+  ```
 
+### Train
+Train the models for predicting room types, locating room and partitioning room in sequence.
+
+Run the training script and the experiment logs and outputs are saved in experiment.
+```
+  For example:
+  
+      - name: file name in RPLAN dataset
+      - boundary: (x, y, dir, isNew), external boundary and first two point indicate the front door
+      - gt_rTypes: room categories
+      - gt_rBoxes: (y0,x0,y1,x1), left-top(in) and right-bottom(out) corner of a room bounding box, extracted directly from the RPLAN dataset
+  ```
 ### Authors
 Feixiang He, Yanlong Huang, He Wang
 
