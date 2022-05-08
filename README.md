@@ -1,10 +1,22 @@
 ## [iPLAN: Interactive and Procedural Layout Planning (CVPR 2022)](https://arxiv.org/pdf/2203.14412.pdf)
-
 ![Paper Image](./iPlan.png)
 
 Layout design is ubiquitous in many applications, e.g. architecture/urban planning, etc, which involves a lengthy iterative design process. Recently, deep learning has been leveraged to automatically generate layouts via image generation, showing a huge potential to free designers from laborious routines. While automatic generation can greatly boost productivity, designer input is undoubtedly crucial. An ideal AI-aided design tool should automate repetitive routines, and meanwhile accept human guidance and provide smart/proactive suggestions. However, the capability of involving humans into the loop has been largely ignored in existing methods which are mostly end-to-end approaches. To this end, we propose a new human-in-the-loop generative model, iPLAN, which is capable of automatically generating layouts, but also interacting with designers throughout the whole procedure, enabling humans and AI to co-evolve a sketchy idea gradually into the final design. iPLAN is evaluated on diverse datasets and compared with existing methods. The results show that iPLAN has high fidelity in producing similar layouts to those from human designers, great flexibility in accepting designer inputs and providing design suggestions accordingly, and strong generalizability when facing unseen design tasks and limited training data.
 
-## Authors
+## Getting Started
+### Dependencies
+Below is the key environment under which the code was developed, not necessarily the minimal requirements:
+
+1. Python 3.6.13
+2. pytorch 1.7.0
+3. Cuda 10.1
+
+And other libraries such as numpy.
+
+### Prepare data
+
+
+### Authors
 Feixiang He, Yanlong Huang, He Wang
 
 Feixiang He, scfh@leeds.ac.uk
@@ -13,7 +25,7 @@ He Wang, h.e.wang@leeds.ac.uk, [Personal website](https://drhewang.com)
 
 Project Webpage: http://drhewang.com/pages/iplan.html
 
-## Citation (Bibtex)
+### Citation (Bibtex)
 Please cite our paper if you find it useful:
 
     @article{he2022iplan,
@@ -23,10 +35,14 @@ Please cite our paper if you find it useful:
     year={2022}
     }
 
-## Contact
+### Contact
 If you have any questions about the code, please contact me: Feixiang He(fxhe1992@gmail.com)
 
-## License
+### Acknowledgement
+Toolbox to render floorplan: https://github.com/zzilch/RPLAN-Toolbox
+Original RPLAN dataset: http://staff.ustc.edu.cn/~fuxm/projects/DeepLayout/index.html
+
+### License
 
 Copyright (c) 2022, The University of Leeds, UK. All rights reserved.
 
