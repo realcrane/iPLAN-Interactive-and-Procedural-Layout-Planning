@@ -9,7 +9,7 @@ Below is the key environment under which the code was developed, not necessarily
 
 1. Python 3.6.13
 2. pytorch 1.7.0
-3. Cuda 10.1
+3. cuda 10.1
 
 And other libraries such as numpy.
 
