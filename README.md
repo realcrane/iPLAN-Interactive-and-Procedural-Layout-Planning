@@ -44,6 +44,14 @@ He Wang, h.e.wang@leeds.ac.uk, [Personal website](https://drhewang.com)
 
 Project Webpage: http://drhewang.com/pages/iplan.html
 
+### Contact
+If you have any questions, please contact me: Feixiang He(fxhe1992@gmail.com)
+
+### Acknowledgement
+Toolbox to render floorplan: https://github.com/zzilch/RPLAN-Toolbox
+
+Original RPLAN dataset: http://staff.ustc.edu.cn/~fuxm/projects/DeepLayout/index.html
+
 ### Citation (Bibtex)
 Please cite our paper if you find it useful:
 
@@ -53,14 +61,6 @@ Please cite our paper if you find it useful:
     journal={arXiv preprint arXiv:2203.14412},
     year={2022}
     }
-
-### Contact
-If you have any questions, please contact me: Feixiang He(fxhe1992@gmail.com)
-
-### Acknowledgement
-Toolbox to render floorplan: https://github.com/zzilch/RPLAN-Toolbox
-
-Original RPLAN dataset: http://staff.ustc.edu.cn/~fuxm/projects/DeepLayout/index.html
 
 ### License
 
