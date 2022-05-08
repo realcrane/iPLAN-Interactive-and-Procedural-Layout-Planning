@@ -1,0 +1,2 @@
+Epoch,Average Train Loss,Average Val Loss,Predict Accuracy,Number of Predict Category Right,Number of Target Category,Number of Predict Category,Category Accuracy,Category Proportion,Number of Specific Target Category,Number of Specific Predict Category,Number of Specific Predict Category,Accuracy of Specific Category
+1,0.01827,0.02883,0.99573,305,355,324,0.85915,0.94136,81,48,32,0.39506
