@@ -30,7 +30,6 @@ def loss_function(recon_x, x, mu, log_var):
 
 
 def train(**kwargs):
-    best_loss = 1e6
     os.environ['CUDA_VISIBLE_DEVICES'] = '3'
     name = time.strftime('roomtype_train_%Y%m%d_%H%M%S')
     log_file = open(f"{opt.save_log_root}/{name}.txt", 'w')
@@ -130,10 +129,7 @@ def train(**kwargs):
 
         # validate
         if current_epoch % opt.val_freq == 0:
-            kld_loss = val(cvae, val_dataloader, log_file, current_epoch)
-            is_best = kld_loss < best_loss
-            best_loss = min(kld_loss, best_loss)
-            cvae.save_model(current_epoch, is_best)
+            val(cvae, val_dataloader, log_file, current_epoch)
 
     end_time = time.strftime("%b %d %Y %H:%M:%S")
     log(log_file, f'Training end time: {end_time}')
@@ -155,8 +151,6 @@ def val(cvae, dataloader, log_file, current_epoch):
 
         log(log_file, 'Test Epoch: {}, Average Loss ===> Loss: {:.4f}, BCE_Loss: {:.4f}, KLD_Loss: {:.4f}'.format(current_epoch, losses.avg['total'], losses.avg['bce'], losses.avg['kld']))
     cvae.train()
-    return losses.avg['kld']
-
 
 if __name__ == '__main__':
     train()
