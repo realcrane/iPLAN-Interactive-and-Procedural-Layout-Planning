@@ -72,7 +72,7 @@ class BoundingBoxNet(nn.Module):
                         nn.init.constant_(m.bias, 0)
 
 
-def make_layers(self, cfg, in_channels=3, norm=True):
+def make_layers(cfg, in_channels=3, norm=True):
     d_rate = 1
     layers = []
     map_size = 128
