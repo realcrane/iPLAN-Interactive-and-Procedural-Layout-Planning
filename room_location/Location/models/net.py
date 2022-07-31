@@ -127,6 +127,8 @@ class ResNet(BasicModule):
             elif '18' in self.name:
                 pretrained_model = '../pretrained_model/resnet18-5c106cde.pth'
                 resnet = models.resnet18()
+            if pretrained_path != None:
+                pretrained_model = pretrained_path
             resnet.load_state_dict(t.load(pretrained_model))
 
             self.bn1 = resnet.bn1
