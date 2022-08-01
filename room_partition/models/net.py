@@ -58,6 +58,8 @@ class BoundingBoxNet(nn.Module):
         if pretrain:
             print('load the pretrained CSRNet generation model')
             pretrain_model = "./data/pretrain.pth.tar"
+            if not os.path.exists(pretrain_model):
+                pretrain_model = '../room_partition/weights/renderer.pkl'
             model_dict = torch.load(pretrain_model)
             self.load_state_dict(model_dict)
         else:
