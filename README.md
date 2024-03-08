@@ -58,7 +58,7 @@ Please cite our paper if you find it useful:
     @article{he2022iplan,
     title={iPLAN: Interactive and Procedural Layout Planning},
     author={He, Feixiang and Huang, Yanlong and Wang, He},
-    journal={arXiv preprint arXiv:2203.14412},
+    journal={The Conference on Computer Vision and Pattern Recognition (CVPR)},
     year={2022}
     }
 
