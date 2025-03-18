@@ -38,7 +38,7 @@ The trained model can be download [here](https://drive.google.com/drive/folders/
 ### Authors
 Feixiang He, Yanlong Huang, He Wang
 
-Feixiang He, scfh@leeds.ac.uk
+Feixiang He, drfxhe@gmail.com, [Homepage](https://feixianghe.github.io/)
 
 He Wang, h.e.wang@leeds.ac.uk, [Personal website](https://drhewang.com)
 
