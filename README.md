@@ -45,7 +45,7 @@ He Wang, h.e.wang@leeds.ac.uk, [Personal website](https://drhewang.com)
 Project Webpage: http://drhewang.com/pages/iplan.html
 
 ### Contact
-If you have any questions, please contact me: Feixiang He(scfh@leeds.ac.uk)
+If you have any questions, please contact me: Feixiang He(drfxhe@gmail.com)
 
 ### Acknowledgement
 Toolbox to render floorplan: https://github.com/zzilch/RPLAN-Toolbox
